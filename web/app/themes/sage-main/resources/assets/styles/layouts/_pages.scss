@@ -1,0 +1,160 @@
+body,html {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.partie1 {
+  width: 100%;
+  background-image: url("http://localhost:8000/app/uploads/2022/03/test1.png");
+  background-size: cover;
+  height: 50rem;
+}
+
+.container h1 {
+  color: white;
+  padding-top: 200px;
+}
+
+.container p {
+  color: white;
+  line-height: 30px;
+}
+
+.container button {
+  color: white;
+  background: #ec2c7b;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.partie2::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 639px;
+  height: 647.09px;
+  left: -328px;
+  top: 494.42px;
+  background-color: #00184a;
+  z-index: -1;
+}
+
+.partie2 {
+  background-color: #005ac5;
+  height: 56rem;
+}
+
+.partie2 h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 80px;
+}
+
+.cartes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.carte {
+  background-color: white;
+  width: 22rem;
+  height: 38rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.carte .img1 {
+  width: 100%;
+  height: 25rem;
+
+  background-size: cover;
+}
+
+.carte .img2 {
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+}
+
+.carte .img3 {
+  width: 100%;
+  height: 25rem;
+
+  background-size: cover;
+}
+
+.infos {
+  padding-left: 15px;
+}
+
+.infos p strong {
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.infos p:nth-child(1) {
+  line-height: 10px;
+  color: black;
+  padding-top: 50px;
+  font-weight: normal;
+}
+
+.infos p:nth-child(2) {
+  background-color: #006bea;
+  padding: 1px;
+  margin-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  justify-content: left;
+}
+
+.infos p:nth-child(3) {
+  color: black;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+.partie2 .container button {
+  background-color: #001a49;
+  padding: 15px;
+  margin-top: 30px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+@media screen and (max-width: 400px) {
+
+  body, html{
+    margin:0;
+    padding:0;
+  }
+  .partie2 {
+    height: 145rem;
+  }
+
+  .cartes {
+    display:block;
+  }
+}

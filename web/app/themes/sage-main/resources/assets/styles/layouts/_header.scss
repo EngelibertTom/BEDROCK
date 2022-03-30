@@ -1,0 +1,25 @@
+.banner .nav {
+  @apply list-none p-0 flex flex-wrap;
+}
+
+.nav-primary {
+  display: flex;
+  align-items: center;
+}
+.banner .nav a {
+  @apply inline-block px-4 py-2 border-none;
+  color:white;
+}
+
+.banner {
+  background-color:#005AC5;
+  &>div{
+    @apply flex items-center;
+    justify-content: space-between;
+  }
+
+}
+
+
+
+

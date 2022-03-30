@@ -1,0 +1,65 @@
+.partie3::before {
+  content:"";
+  position: absolute;
+  width: 192px;
+  height: 194.43px;
+  left: 1800px;
+  top: -100px;
+  background-color: #EC2C7B;
+  border-radius:50%;
+}
+
+
+.partie3 {
+  background-color:white;
+  height:50rem;
+  position:relative;
+}
+
+.partie3 .container {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.partie3 .container img {
+  height:45rem;
+  width: auto;
+  padding-top:200px;
+}
+
+.partie3 .container h1 {
+  color:black;
+}
+
+.partie3 .container p {
+  color:black;
+  line-height: 50px;
+}
+
+.partie3 .container button {
+  font-family: Roboto;
+  line-height: 5px;
+  padding:20px;
+
+}
+
+@media screen and (max-width: 400px) {
+
+ h1 {
+   font-size:1.5rem;
+ }
+
+  .partie3 .container img {
+    height:30rem;
+  }
+  .partie3 .container p {
+    font-size:1rem;
+    line-height: 30px;
+    margin-top:40px;
+  }
+
+  .partie3 button {
+    margin-top:40px;
+  }
+}
+
